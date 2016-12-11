@@ -1,6 +1,4 @@
-package com.serg3d.Arrays;
-
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+package com.serg3d.ArraysStrings;
 
 import java.util.Arrays;
 
