@@ -1,0 +1,11 @@
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\bin\Debug\CheckPermutations.exe
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\bin\Debug\CheckPermutations.pdb
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\bin\Debug\mscorlib.dll
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\bin\Debug\normidna.nlp
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\bin\Debug\normnfc.nlp
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\bin\Debug\normnfd.nlp
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\bin\Debug\normnfkc.nlp
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\bin\Debug\normnfkd.nlp
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\obj\Debug\CheckPermutations.csprojResolveAssemblyReference.cache
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\obj\Debug\CheckPermutations.exe
+D:\DEV\Cracking\CS\CrackingCS\CheckPermutations\obj\Debug\CheckPermutations.pdb
