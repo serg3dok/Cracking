@@ -2,6 +2,8 @@ package com.serg3d.Arrays;
 
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
+import java.util.Arrays;
+
 /**
  * Created by Sergey on 11/27/2016.
  */
@@ -13,7 +15,7 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
     Q. is this function case sensitive?
     Q. is this function takes alphanumeric? only english characters? numbers?
 
-    1. buiteforce - nested loop
+    1. bruteforce - nested loop
 
     2. convert to char array, sort, iterate array
 
@@ -25,7 +27,7 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 public class IsUnique {
     public static void main(String[] args) {
-        System.out.println(isUnique("qwertyuiopasdfghjklzxcvbnm,"));
+        System.out.println(isUnique2("qwertyuiopasdfghjklzxcvbnm,"));
     }
 
     public static boolean isUnique (String str) {
@@ -37,5 +39,26 @@ public class IsUnique {
         }
 
         return true;
+    }
+    // O(n*2)
+
+    public static boolean isUnique2(String str) {
+
+        char[] strChars = str.toCharArray();
+
+        Arrays.sort(strChars);
+
+        int charVal = 'a';
+
+        for (int i = 0; i < strChars.length-1; i++) {
+
+            if (strChars[i] == strChars[i+1]) {
+                return false;
+
+            }
+        }
+        return true;
+
+
     }
 }
